@@ -9,7 +9,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">React Express Starter</h1>
+          <h1 className="App-title">React Express Basic by David <br /><br/>
+          <a href="http://projectsbydavid.com/">My Portfolio</a></h1>
         </header>
         <Customers />
       </div>

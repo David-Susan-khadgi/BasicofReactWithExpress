@@ -4,8 +4,9 @@ const cors = require('cors');
 const app = express();
 
 app.get('/api/customers', cors(), (req, res) => {
+//Fake Database which will be sent as per request as api
   const customers = [
-    {id: 1, firstName: 'John', lastName: 'Doe'},
+    {id: 1, firstName: 'David', lastName: ''},
     {id: 2, firstName: 'Brad', lastName: 'Traversy'},
     {id: 3, firstName: 'Mary', lastName: 'Swanson'},
   ];

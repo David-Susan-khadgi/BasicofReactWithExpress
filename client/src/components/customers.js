@@ -19,6 +19,7 @@ class Customers extends Component {
     return (
       <div>
         <h2>Customers</h2>
+        <p><b>The list of the name below are being generated via express server API</b></p>
         <ul>
         {this.state.customers.map(customer => 
           <li key={customer.id}>{customer.firstName} {customer.lastName}</li>
